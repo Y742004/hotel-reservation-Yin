@@ -52,8 +52,7 @@ export default function Page() {
   return (
     <>
       <div className="p-5">
-        <h1>hi</h1>
- <div className=""> <ThemeSwitcher/></div>
+  <div className=""> <ThemeSwitcher/></div>
 
         <div className="p-8 border rounded-xl w-[500px] mx-auto mt-10">
           <Image src="https://www.scottsmorraphotography.com/images/xl/Lanikai-Beach-Sunrise-Palm-Trees-Oahu-Hawaii.jpg" />
@@ -118,7 +117,7 @@ export default function Page() {
 
         <div className="mt-10">
           <h1 className="font-bold text-2xl ">Hotel Reservation List</h1>
-          <div className=" mt-5 grid grid-cols-2 lg:grid-cols-3 gap-2">
+          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {data.map((reservation: any) => (
               <div className="border p-3 max-w-96 rounded-lg ">
                 
