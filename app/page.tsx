@@ -118,7 +118,7 @@ export default function Page() {
 
         <div className="mt-10">
           <h1 className="font-bold text-2xl ">Hotel Reservation List</h1>
-          <div className=" mt-5 grid lg:grid-cols-3 gap-2">
+          <div className=" mt-5 grid grid-cols-3 lg:grid-cols-2 gap-2">
             {data.map((reservation: any) => (
               <div className="border p-3 max-w-96 rounded-lg ">
                 
