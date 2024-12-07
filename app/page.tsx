@@ -51,7 +51,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="p-5">
+      <div className="p-5 ">
   <div className=""> <ThemeSwitcher/></div>
 
         <div className="p-8 border rounded-xl w-[500px] mx-auto mt-10">
