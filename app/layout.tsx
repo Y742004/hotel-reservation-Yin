@@ -23,8 +23,8 @@ const myFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Crypto 2 Earn",
-  description: "You can earn crypto by Telegram Tap-to-earn",
+  title: "Hotel Reservation",
+  description: "You can reserve a room on here",
 };
 
 export default function RootLayout({
