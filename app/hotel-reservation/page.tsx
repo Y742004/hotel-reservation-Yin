@@ -7,8 +7,7 @@ import { q } from "framer-motion/client";
 import { useState } from "react";
 import { DeleteReservation } from "./delete";
 import { UpdateReservation } from "./update";
-import MainData from "../Medical/mainData";
-
+ 
 export default function Page() {
   const { isPending, error, data } = useQuery({
     queryKey: ["reservationData"],
@@ -52,7 +51,7 @@ export default function Page() {
   return (
     <>
       <div className="p-5">
-<MainData/>
+
 
         <div className="p-8 border rounded-xl w-[500px] mx-auto">
           <Image src="https://www.scottsmorraphotography.com/images/xl/Lanikai-Beach-Sunrise-Palm-Trees-Oahu-Hawaii.jpg" />
