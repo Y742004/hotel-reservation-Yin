@@ -14,7 +14,7 @@ export default function RootProviders({
 }>) {
   return (
     <NextUIProvider>
-      <NextThemesProvider attribute="class" defaultTheme="light">
+      <NextThemesProvider attribute="class" defaultTheme="dark">
         <QueryClientProvider client={queryClient}>
           {children}
         </QueryClientProvider>
