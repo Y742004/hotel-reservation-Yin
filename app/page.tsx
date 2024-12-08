@@ -51,14 +51,16 @@ export default function Page() {
 
   return (
     <>
-      <div className="p-5 ">
+      <div className="p-5 bg-white dark:bg-black">
   <div className=""> <ThemeSwitcher/></div>
 
-        <div className="p-8 border rounded-xl w-[500px] mx-auto mt-10">
+        <div className="p-8 border dark:border-white border-black rounded-xl w-[500px] mx-auto mt-10">
           <Image src="https://www.scottsmorraphotography.com/images/xl/Lanikai-Beach-Sunrise-Palm-Trees-Oahu-Hawaii.jpg" />
           <form className="mt-5" onSubmit={onSubmit}>
-            <div className=" flex flex-col gap-3 items-center w-[400px] mx-auto">
+            <div className=" flex flex-col text-black dark:text-white gap-3 items-center w-[400px] mx-auto">
               <Input
+              className=""
+              
                 variant="bordered"
                 isRequired
                 labelPlacement="outside"
@@ -115,9 +117,9 @@ export default function Page() {
           </form>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 text-black dark:text-white ">
           <h1 className="font-bold text-2xl ">Hotel Reservation List</h1>
-          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2  mx-20">
             {data.map((reservation: any) => (
               <div className="border p-3 max-w-96 rounded-lg ">
                 

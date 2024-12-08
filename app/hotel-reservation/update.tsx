@@ -61,7 +61,7 @@ export function UpdateReservation({
     <>
       <Popover placement="bottom" showArrow={true}>
         <PopoverTrigger>
-          <Button color="primary">Edit</Button>
+          <Button className="bg-blue-500">Edit</Button>
         </PopoverTrigger>
         <PopoverContent>
           <form onSubmit={onSubmit}>
